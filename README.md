@@ -2,12 +2,12 @@
 
 ## Установка Terraform 
 
-apt update
+``apt update
 apt install gnupg software-properties-common curl
 curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
 apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 apt update
-apt install terraform
+apt install terraform``
 
 ![Снимок экрана 2025-05-26 173619](https://github.com/user-attachments/assets/f59db309-689c-42ef-b441-926abba9ac87)
 
