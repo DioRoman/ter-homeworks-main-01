@@ -110,6 +110,9 @@ https://github.com/DioRoman/ter-homeworks-main-01/blob/main/main.tf
 Установите opentofu(fork terraform с лицензией Mozilla Public License, version 2.0) любой версии
 
 `curl --proto '=https' --tlsv1.2 -fsSL https://get.opentofu.org/install-opentofu.sh -o install-opentofu.sh`
+
 `chmod +x install-opentofu.sh`
+
 `./install-opentofu.sh --install-method deb`
+
 `rm -f install-opentofu.sh`
