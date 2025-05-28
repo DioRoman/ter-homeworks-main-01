@@ -125,4 +125,10 @@ https://github.com/DioRoman/ter-homeworks-main-01/blob/main/main.tf
 
 `tofu apply`
 
+![Снимок экрана 2025-05-29 000053](https://github.com/user-attachments/assets/0c8709cb-86bf-46e0-bfe9-970f667dd453)
+![Снимок экрана 2025-05-29 000103](https://github.com/user-attachments/assets/af2b7b55-313f-47fb-9375-282a8cef2e33)
+
+
+
+
 
