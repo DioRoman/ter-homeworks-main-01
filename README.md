@@ -116,3 +116,13 @@ https://github.com/DioRoman/ter-homeworks-main-01/blob/main/main.tf
 `./install-opentofu.sh --install-method deb`
 
 `rm -f install-opentofu.sh`
+
+Попробуйте выполнить тот же код с помощью tofu apply, а не terraform apply.
+
+`cd /mnt/c/Users/Dio/Netology/ter-homeworks/01/src`
+
+`tofu init -upgrade`
+
+`tofu apply`
+
+
