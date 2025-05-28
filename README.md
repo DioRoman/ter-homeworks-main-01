@@ -2,12 +2,14 @@
 
 ## Установка Terraform 
 
-``apt update
+```
+apt update
 apt install gnupg software-properties-common curl
 curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
 apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 apt update
-apt install terraform``
+apt install terraform
+```
 
 ![Снимок экрана 2025-05-26 173619](https://github.com/user-attachments/assets/f59db309-689c-42ef-b441-926abba9ac87)
 
@@ -68,16 +70,20 @@ keep_locally (Boolean) If true, then the Docker image won't be deleted on destro
 
 Подключитесь к ВМ по ssh и установите стек docker.
 
-``sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc``
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+```
 
-``echo \
+```
+echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null``
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
 `sudo apt-get update`
 
 `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y`
